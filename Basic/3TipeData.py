@@ -57,3 +57,22 @@ bergerak = True
 nyala = 1
 print(type(bergerak))
 print(type(nyala))
+
+# latihan
+
+# Program bio data penduduk desa X
+# membuat variabel beserta isinya (nilainya)
+nama = "Hartono"
+alamat = 'Magelang'
+usia = 19
+tinggi = 170.5
+menikah = False
+# mencetak isi variabel
+print("Nama : ", nama)
+print("Alamat : ", alamat)
+print("Usia : ", usia, "Tahun")
+print("Tinggi : ", tinggi, "Cm")
+if(menikah):
+    print("Status: menikah")
+else:
+    print("Status: belum menikah")
