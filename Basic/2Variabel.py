@@ -18,4 +18,12 @@ print(y)
 
 # Menghapus Variabel >> Ketika sebuah variabel tidak dibutuhkan lagi, maka kita bisa menghapusnya dengan fungsi del()
 del(y)
-print(y) #Saat mencetak nilai y, muncul pesan error
+# print(y) #Saat mencetak nilai y, muncul pesan error
+
+# Casting If you want to specify the data type of a variable, this can be done with casting.
+a = str(3)    # x will be '3'
+b = int(3)    # y will be 3
+c = float(3)  # z will be 3.0
+print(a)
+print(b)
+print(c)
