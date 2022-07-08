@@ -19,3 +19,45 @@ None Type       :	NoneType
 
 x = 5
 print(type(x))
+
+Namaku = "Andra"
+print(type(Namaku))
+
+a = 80.98
+print(type(a))
+
+b = 9j
+print(type(b))
+
+c = ["Appel", "Banana", "Cherry"]
+print(type(c))
+
+d = {"Appel", "Banana", "Cebong"}
+print(type(d))
+
+e = ("apple", "Banana", "Cherry")
+print(type(e))
+
+f = range(9)
+print(type(f))
+
+g = {"Name" : "Joni", "age": 30}
+print(type(g))
+
+h = frozenset({"Apple","Banana","cherry"})
+print(type(h))
+
+j = True
+print(type(j))
+
+k = b"Hello"
+print(type(k))
+
+l = bytearray(9)
+print(type(l))
+
+m = memoryview(bytes(9))
+print(type(m))
+
+n = None
+print(type(n))
