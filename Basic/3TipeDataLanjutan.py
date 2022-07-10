@@ -61,3 +61,7 @@ print(type(m))
 
 n = None
 print(type(n))
+
+""" Setting the Specific Data Type
+If you want to specify the data type, you can use the following constructor functions: """
+
