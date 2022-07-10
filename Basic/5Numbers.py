@@ -13,7 +13,16 @@ one or more decimals.
 3. complex >> Complex
 Complex numbers are written 
 with a "j" as the imaginary part:
+
+
+Random Number
+Python does not have a random() 
+function to make a random number, 
+but Python has a built-in module 
+called random that can be used to 
+make random numbers:
 """
+import random
 
 x = 1
 y = 9.9
@@ -22,3 +31,5 @@ z = 9j
 print(type(x))
 print(type(y))
 print(type(z))
+
+print(random.randrange(1,20))
