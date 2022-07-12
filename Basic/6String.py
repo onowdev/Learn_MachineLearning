@@ -47,3 +47,11 @@ Since strings are arrays, we can loop through the characters in a string, with a
 
 for x in "Banana":
     print(x)
+
+"""
+String Length
+To get the length of a string, use the len() function.
+
+"""
+d = "Mouson Barat"
+print(len(d))
