@@ -55,3 +55,10 @@ To get the length of a string, use the len() function.
 """
 d = "Mouson Barat"
 print(len(d))
+
+"""
+Check String
+To check if a certain phrase or character is present in a string, we can use the keyword in.
+"""
+txt = "Python adalah salah satu bahasa pemrograman yang bisa di terapkan pada Web sebagai backend dengan Django atau Flash sebagai Framework nya"
+print("Web" in txt) # Output menghasilkan Boolean bernilai True
