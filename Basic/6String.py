@@ -62,3 +62,7 @@ To check if a certain phrase or character is present in a string, we can use the
 """
 txt = "Python adalah salah satu bahasa pemrograman yang bisa di terapkan pada Web sebagai backend dengan Django atau Flash sebagai Framework nya"
 print("Web" in txt) # Output menghasilkan Boolean bernilai True
+
+txt1 = "Python adalah salah satu bahasa pemrograman"
+if "bahasa" in txt:
+    print("YA, 'bahasa' is present")
