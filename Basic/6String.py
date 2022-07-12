@@ -39,3 +39,11 @@ Square brackets can be used to access elements of the string.
 """
 c = "Hello_World"
 print(c[2])
+
+"""
+Looping Through a String
+Since strings are arrays, we can loop through the characters in a string, with a for loop.
+"""
+
+for x in "Banana":
+    print(x)
