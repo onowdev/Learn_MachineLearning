@@ -66,3 +66,13 @@ print("Web" in txt) # Output menghasilkan Boolean bernilai True
 txt1 = "Python adalah salah satu bahasa pemrograman"
 if "bahasa" in txt:
     print("YA, 'bahasa' is present")
+
+"""
+
+Check if NOT
+To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
+
+"""
+
+txt3 = "The best things in life are free!"
+print("expensive" not in txt3)
