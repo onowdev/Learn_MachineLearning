@@ -76,3 +76,13 @@ To check if a certain phrase or character is NOT present in a string, we can use
 
 txt3 = "The best things in life are free!"
 print("expensive" not in txt3)
+
+"""
+Slicing
+You can return a range of characters by using the slice syntax.
+
+Specify the start index and the end index, separated by a colon, to return a part of the string.
+"""
+
+e = "Hello world"
+print(e[2:5])
