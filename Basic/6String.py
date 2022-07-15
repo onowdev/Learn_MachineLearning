@@ -86,3 +86,10 @@ Specify the start index and the end index, separated by a colon, to return a par
 
 e = "Hello world"
 print(e[2:5])
+
+"""
+Slice To the End
+By leaving out the end index, the range will go to the end:
+"""
+f = "Hallo Python"
+print(f[:7])
