@@ -17,3 +17,4 @@ hero3.health = 100
 print(hero1)
 print(hero1.__dict__)
 print(hero1.name)
+print(hero2.__dict__)
