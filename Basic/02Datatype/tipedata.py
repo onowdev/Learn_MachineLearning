@@ -70,3 +70,24 @@ print(type(o))
 p = None
 print(p)
 print(type(p))
+
+"""
+Setting the Specific Data Type
+If you want to specify the data type, you can use the following constructor functions:
+"""
+
+x1 = str("hello world")
+print(x1)
+print(type(x1))
+
+x2 = int(90)
+print(x2)
+print(type(x2))
+
+x3 = float(7.9)
+print(x3)
+print(type(x3))
+
+x4 = complex(9j)
+print(x4)
+print(type(x4))
